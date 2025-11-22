@@ -1,0 +1,40 @@
+.left .text-box{
+    padding: 5%;
+    width: 80%;
+    height: 500px;
+    top: 30%;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    position: sticky;
+    color: rgb(92, 45, 16);
+}
+
+.menu-section{
+    display: flex;
+	flex-wrap: wrap; 
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background-image: url("../image/bgimage4.png");
+}
+
+.menu-section .left{
+    text-align: center;
+}
+
+.menu-section .right{
+    text-align: center;
+    color: rgb(92, 45, 16);
+}
+
+.right img{
+    width: 420px;
+    height: 420px;
+}
+
+.left h3{
+    color: rgb(92, 45, 16);
+}
+

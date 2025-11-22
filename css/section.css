@@ -1,0 +1,45 @@
+.section{
+    display: flex;
+	flex-wrap: wrap; 
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    background-image: url("../image/bgimage3.png");
+    text-align: center;
+    align-items: center;
+}
+
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+.left{
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.right {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.left p, .right p{
+    margin: auto;
+}
+
+.text-box{
+    padding: 40px;
+    width: 85%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.177);/*背景色のみ透明度を高めたい場合opacityじゃダメ*/
+}
+
+.text-box h3{
+    color: rgb(254, 254, 254);
+}
